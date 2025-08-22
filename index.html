@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bharath S - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+  <header id="header">
+    <h1 id="logo">Bharath <span>S</span></h1>
+    <nav id="navbar">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button id="darkToggle">☀️</button>
+  </header>
+
+  <section id="hero" class="reveal">
+    <div class="hero-text">
+      <h2>Hi, I'm <span class="highlight">Bharath</span> 👋</h2>
+      <p>B.E. Computer Science and Engineering student passionate about web development and problem solving.</p>
+      <a class="btn" href="#projects">See my Work</a>
+      <a class="btn outline" href="MyResume.pdf" download>Download Resume</a>
+
+    </div>
+    <div class="hero-art">
+      <div class="blob"></div>
+      <div class="ring"></div>
+    </div>
+  </section>
+
+  <section id="about" class="card reveal">
+    <h2>About Me</h2>
+    <p>Hello! I am Bharath S, a Computer Science and Engineering student with skills in Java and web development. I enjoy learning new technologies and building creative projects.</p>
+  </section>
+
+  <section id="projects" class="reveal">
+    <h2>Projects</h2>
+    <div class="project-list">
+      <div class="project card">
+        <h3>Fundog Webpage</h3>
+        <a class="btn small" href="https://theplaycaster.github.io/Fundog/" target="_blank">View Project</a>
+      </div>
+      <div class="project card">
+        <h3>E-Commerce Site</h3>
+        <a class="btn small" href="https://theplaycaster.github.io/E-Commerce/" target="_blank">View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="card reveal">
+    <h2>Skills</h2>
+    <ul>
+      <li>Java</li>
+      <li>HTML, CSS, JavaScript</li>
+      <li>Problem Solving</li>
+      <li>Project Management</li>
+    </ul>
+  </section>
+  <section id="education" class="card reveal">
+  <h2>🎓 Education</h2>
+  <div class="timeline">
+
+    <div class="timeline-item">
+      <span class="timeline-date">2019 – 2020</span>
+      <h3>Secondary School (Class 10)</h3>
+      <p>Keren Public School</p>
+      <p><strong>SSLC:</strong> 87.6%</p>
+    </div>
+
+    <div class="timeline-item">
+      <span class="timeline-date">2020 – 2022</span>
+      <h3>Higher Secondary (Class 12)</h3>
+      <p>Velammal Bodthi Campus</p>
+      <p><strong>HSLC:</strong> 73.7%</p>
+    </div>
+
+    <div class="timeline-item">
+      <span class="timeline-date">2022 – Present</span>
+      <h3>B.E. Computer Science and Engineering</h3>
+      <p>Mahendra Institute of Technology</p>
+      <p><strong>CGPA:</strong> 7.7</p>
+    </div>
+
+  </div>
+</section>
+
+
+  <section id="contact" class="card reveal">
+  <h2>Contact</h2>
+  
+<form id="contactForm" class="contact-form">
+  <div class="form-group">
+    <input type="text" name="name" placeholder="Your Name" required>
+  </div>
+  <div class="form-group">
+    <input type="email" name="email" placeholder="Your Email" required>
+  </div>
+  <div class="form-group">
+    <textarea name="message" placeholder="Your Message" required></textarea>
+  </div>
+  <button type="submit" class="btn">Send ✉️</button>
+</form>
+  <div class="contact-icons">
+  <!-- Email (tooltip) -->
+  <div class="icon-wrapper" data-tooltip="yogabharath2004@gmail.com">
+    <i class="fas fa-envelope"></i>
+  </div>
+
+  <!-- Phone (tooltip) -->
+  <div class="icon-wrapper" data-tooltip="8015647471">
+    <i class="fas fa-phone"></i>
+  </div>
+
+  <!-- GitHub (link) -->
+  <a href="https://github.com/theplaycaster" target="_blank" class="icon-wrapper">
+    <i class="fab fa-github"></i>
+  </a>
+
+  <!-- LinkedIn (link) -->
+  <a href="https://www.linkedin.com/in/bharath-s-b79713267/" target="_blank" class="icon-wrapper">
+    <i class="fab fa-linkedin"></i>
+  </a>
+</div>
+
+</section>
+
+
+  <footer id="footer">
+    <p>© 2025 Bharath S</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
